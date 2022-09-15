@@ -33,12 +33,12 @@ a:hover{
 
 #owner{
   font-size: 1rem;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 .level{
   font-size: 3rem;
-  margin-bottom: 40px;
+  margin-bottom: 90px;
 }
 
 .again{
@@ -53,13 +53,9 @@ a:hover{
 
 .container {
   display: block;
-  /* width: 50%; */
-  margin-left: auto;
-  margin-right: auto;
   display: none;
-  margin: 150px 260px ;
-
-  
+  margin-top: 150px;
+  margin: 150px 260px 0 260px;
 }
 
 .btn {
@@ -90,4 +86,54 @@ a:hover{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   background-color: grey;
   opacity: 0.5 ;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .btn{
+  width: 120px;
+  padding: 45px 0;
+  }
+
+
+  #start {
+    font-size: 3.5rem;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 1050px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  .btn{
+  width: 100px;
+  padding: 35px 0;
+  }
+  #owner{
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+  }
+
+  #start {
+    font-size: 3.5rem;
+  }
+  
+  .level{
+    font-size: 2.5rem;
+  }
+  
+  .again{
+    font-size: 1.5rem;
+  }
 }
