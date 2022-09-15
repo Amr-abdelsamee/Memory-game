@@ -47,6 +47,7 @@ for (let i = 0; i < gameBlocks; i++) {
 
 
 $("#start").click(function () {
+    playSound("start")
     $("#gameName").slideUp();
     $("#start").slideUp();                   // start text goes away
 
@@ -109,8 +110,8 @@ function animation(blockID) {
 
 
 
-function playSound(soundNameID) {
-    new Audio("src//sounds//" + soundNameID + ".mp3").play()
+function playSound(soundName) {
+    new Audio("src//sounds//" + soundName + ".mp3").play()
 }
 
 
