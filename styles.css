@@ -52,9 +52,9 @@ a:hover{
 
 
 .container {
-   display: none;
-  margin-top: 150px;
-  margin: 90px 260px 0 260px;
+  display: none;
+  margin: 90px 15%;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -92,11 +92,12 @@ a:hover{
   .container {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
   }
   
   .btn{
-  width: 145px;
-  padding: 57px 0;
+  width: 140px;
+  padding: 50px 0;
   }
 
 }
@@ -109,6 +110,7 @@ a:hover{
   .container {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
   }
   
   .btn{
