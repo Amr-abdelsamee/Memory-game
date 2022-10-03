@@ -122,3 +122,20 @@ a:hover{
   }
   
 }
+
+@media (max-width: 970px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .btn{
+  width: 200px;
+  padding: 50px 0;
+  }
+
+
+  #start {
+    font-size: 4rem;
+  }
+}
