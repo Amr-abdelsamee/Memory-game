@@ -52,8 +52,7 @@ a:hover{
 
 
 .container {
-  display: block;
-  display: none;
+   display: none;
   margin-top: 150px;
   margin: 90px 260px 0 260px;
 }
